@@ -1,0 +1,47 @@
+
+<html>
+<head>
+   
+    <title>Employee Payroll Information</title>
+</head>
+<body>
+
+    <h2>Employee Payroll Information</h2>
+
+    <form name="Mainform" action="Form2.html" method="post">
+       
+        <label for="employeeName">Employee Name:</label>
+        <input type="text"  name="employeeName" placeholder="Name" required><br>
+
+        <label for="employeeID">Employee ID:</label>
+        <input type="text"  name="employeeID" placeholder="Id" required><br>
+
+      
+        <label for="salary">Salary:</label>
+        <input type="number"  name="salary" placeholder="Number" required><br>
+
+        <label for="department">Department:</label>
+        <input type="text"  name="department" placeholder="Department" required><br>
+
+        <label for="employeeType">Employee Type:</label>
+        <select  name="employeeType"  placeholder="select" required>
+            <option value="fullTime">Full Time</option>
+            <option value="partTime">Part Time</option>
+            <option value="contractor">Contractor</option>
+        </select><br>
+
+        <label for="bankAccountNumber">Bank Account Number:</label>
+        <input type="text"  name="bankAccountNumber" placeholder="Number" required><br>
+
+        <label for="bankName">Bank Name:</label>
+        <input type="text"  name="bankName" placeholder="Name" required><br>
+
+        <label for="taxID">Tax ID:</label>
+        <input type="text" name="taxID" required><br>
+
+        
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
